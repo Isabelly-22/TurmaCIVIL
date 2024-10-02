@@ -1,0 +1,22 @@
+1. Graus pra Fahrenheit = O erro: Após analisar o codigo, nota-se que o individuo tentou gerar o cálculo de conversão utilizando a função STR que serve para textos, onde ele faz a tratativa do valor 32 como uma cadeia de caracteres ao inves de números.
+
+segue abaixo correçãos do erro encontrado no código.
+Código correto:
+c = int(input("Digite temp. em graus Celsius: "))
+f = ((9/5)*c) + 32
+print(f)
+     
+Digite temp. em graus Celsius: 27
+80.6
+
+2.As três formas de representar um algoritmo em linguagem de programação são:
+Pseudocódigo: Uma descrição informal de um algoritmo, usando uma linguagem semelhante à programação, mas mais fácil de entender.
+Fluxograma: Uma representação visual do algoritmo, usando formas geométricas para indicar diferentes etapas do processo.
+Código fonte: A implementação do algoritmo em uma linguagem de programação específica, como Python, Java, etc.
+Exemplo código fonte: pegar um feito em sala
+
+3.Os quatro principais tipos de dados usados em linguagens de programação são:
+Inteiros (int): Representam números inteiros, sem casas decimais. Exemplos incluem -3, 0, 42.
+Ponto Flutuante (float): Representam números reais, que podem ter casas decimais. Exemplos incluem 3.14, -0.001, 2.0.
+Strings (str): Representam sequências de caracteres, ou texto. Podem incluir letras, números e símbolos. Exemplos incluem "Olá", "Python 3", "2021".
+Booleanos (bool): Representam valores de verdade, que podem ser True (verdadeiro) ou False (falso). São frequentemente usados em condições e controle de fluxo.
